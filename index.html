@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="startQuiz">
+        <button class="btnStart">Start</button>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <h1>Quiz app javascript</h1>
+        </div>
+        <div class="quiz-container">
+            <div class="question-container">
+                <span class="question">Qual presidente do brasil?</span>
+            </div>
+            <div class="options-container">
+                <div class="options">
+                    <input type="radio" name="option" id="a">
+                    <label class="a_text" for="a">Questão 1</label>
+                </div>
+                <div class="options">
+                    <input type="radio" name="option" id="b">
+                    <label class="b_text" for="b">Questão 2</label>
+                </div>
+                <div class="options">
+                    <input type="radio" name="option" id="c">
+                    <label class="c_text" for="c">Questão 3</label>
+                </div>
+                <div class="options">
+                    <input type="radio" name="option" id="d">
+                    <label class="d_text" for="d">Questão 4</label>
+                </div>
+            </div>
+            <div class="nextBtn-Container">
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="showResults-container">
+        <h3>Total de Pontos:</h3>
+        <p class="showResult"></p>
+        <button class="restart">Restart</button>
+    </div>
+</body>
+</html>
